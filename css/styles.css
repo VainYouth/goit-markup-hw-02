@@ -51,8 +51,31 @@ a{
 }
 
 .contacts-link:hover,
-.contacts-link {
+.contacts-link:focus {
     color: #404bbf;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-logo .footer_logo {
+    color: #f4f4fd
+}
+
+.intro-footer {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 
 .page-footer {
